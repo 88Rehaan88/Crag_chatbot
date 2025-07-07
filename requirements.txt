@@ -1,0 +1,7 @@
+streamlit==1.33.0
+torch
+transformers
+langchain
+langchain-community
+tavily-python
+sentence-transformers
