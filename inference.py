@@ -1,3 +1,4 @@
+# Importing the necessary libraries:
 import os
 import shutil
 import torch
@@ -8,7 +9,7 @@ from langchain_core.documents import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from tavily import TavilyClient
 
-# Load and split documents
+# Loading the documents:
 def load_documents(folder_path):
     documents = []
     for filename in os.listdir(folder_path):
@@ -19,17 +20,18 @@ def load_documents(folder_path):
                     documents.append(Document(page_content=content, metadata={"source": filename}))
     return documents
 
-# Split into chunks
+# Splitting the documents into chunks: 
 def split_documents(documents):
     splitter = RecursiveCharacterTextSplitter(chunk_size=400, chunk_overlap=100)
     return splitter.split_documents(documents)
 
-# Load embedding model
+# Loading the embedding model and initialize the vectorstore for retrieval:
 embedding_model = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en")
 
-# Load and embed
+# Load and embed:
 if not os.path.exists("chroma_db"):
-    docs = load_documents("Rag_Documents")  # Path where your .txt files live
+    docs = load_documents("Rag_Documents")  # Load heart-related docs for embedding
+    chunks = split_documents(docs)
     chunks = split_documents(docs)
     shutil.rmtree("chroma_db", ignore_errors=True)
     vectorstore = Chroma.from_documents(
@@ -45,9 +47,9 @@ else:
         collection_name="heart-docs"
     )
 
-retriever = vectorstore.as_retriever(search_kwargs={"k": 2})
+retriever = vectorstore.as_retriever(search_kwargs={"k": 2}) # Setting up the retriever to return the top 2 most relevant chunks
 
-# Relevance Grader (FLAN-T5 Base)
+# Use FLAN-T5 to check if a retrieved chunk is relevant to the query or not:
 from transformers import AutoModelForSeq2SeqLM
 flan_tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
 flan_model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base").to("cuda" if torch.cuda.is_available() else "cpu")
@@ -62,11 +64,12 @@ Answer yes or no."""
     result = flan_tokenizer.decode(output[0], skip_special_tokens=True)
     return result.strip().lower() == "yes"
 
-# Load TinyLLaMA model
+# Loading TinyLLaMA model for generation: 
 model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 llm_tokenizer = AutoTokenizer.from_pretrained(model_id)
 llm_model = AutoModelForCausalLM.from_pretrained(model_id).to("cuda" if torch.cuda.is_available() else "cpu")
 
+# Generate an answer using TinyLLaMA based on retrieved context and query:
 def generate_with_model(context_docs, query):
     context = "\n\n".join([doc.page_content for doc in context_docs])
     prompt = f"""
@@ -84,15 +87,17 @@ Answer:"""
     answer = full_response.split("Answer:")[-1].strip()
     return answer
 
-# Web fallback via Tavily
+# Fallback to Tavily web search if no relevant local docs are found:
 hf_token = os.getenv("HF_TOKEN")
 tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
+# Search the web using Tavily API:
 def search_web(query):
     response = tavily.search(query=query, search_depth="basic", max_results=3)
     top_snippets = [r["content"] for r in response["results"]]
     return "\n\n".join(top_snippets)
 
+# Main pipeline: grade, retrieve, generate or fallback to web and generate:
 def ask_question(query: str) -> str:
     retrieved_docs = retriever.get_relevant_documents(query)
     filtered_docs = [doc for doc in retrieved_docs if grade_relevance(query, doc.page_content)]
