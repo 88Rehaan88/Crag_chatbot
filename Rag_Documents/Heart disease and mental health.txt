@@ -1,0 +1,76 @@
+About Heart Disease and Mental Health
+Key points
+Mental health is an important part of overall health and refers to a person’s emotional, psychological, and social well-being. Mental health involves how we think, feel, act, and make choices.
+
+
+Overview
+Mental health disorders can be short- or long-term and can interfere with a person's mood, behavior, thinking, and ability to relate to others. Various studies have shown the impact of trauma, depression, anxiety, and stress on the body, including stress on the heart.123
+
+What mental health disorders are related to heart disease?
+Some of the most commonly studied mental health disorders associated with heart disease or related risk factors include the following:
+
+Mood Disorders: People living with mood disorders, such as major depression or bipolar disorder, find that their mood affects both psychological and mental well-being nearly every day for most of the day.
+
+Anxiety Disorders: People respond to certain objects or situations with fear, dread, or terror. Anxiety disorders include generalized anxiety, social anxiety, panic disorders, and phobias.
+
+Post-Traumatic Stress Disorder (PTSD): People can experience PTSD after undergoing a traumatic life experience, such as war, natural disaster, or any other serious incident.
+
+Chronic Stress: People are in a state of uncomfortable emotional stress—accompanied by predictable biochemical, physiological, and behavioral changes—that is constant and persists over an extended period of time.
+
+There may be other behavioral health disorders, such as substance use disorders, that are connected to heart disease.
+
+How it affects your health
+What is the connection between mental health disorders and heart disease?
+A large and growing body of research shows that mental health is associated with risk factors for heart disease before a diagnosis of a mental health disorder and during treatment. These effects can arise both directly, through biological pathways, and indirectly, through risky health behaviors.4
+
+People experiencing depression, anxiety, stress, and even PTSD over a long period of time may experience certain physiologic effects on the body, such as increased cardiac reactivity (e.g., increased heart rate and blood pressure), reduced blood flow to the heart, and heightened levels of cortisol. Over time, these physiologic effects can lead to calcium buildup in the arteries, metabolic disease, and heart disease.15678910
+
+Evidence shows that mental health disorders—such as depression, anxiety, and PTSD—can develop after cardiac events, including heart failure, stroke, and heart attack.4111213141516171819 These disorders can be brought on after an acute heart disease event from factors including pain, fear of death or disability, and financial problems associated with the event.415
+
+Some literature notes the impact of medicines used to treat mental health disorders on cardiometabolic disease risk. The use of some antipsychotic medications has been associated with obesity, insulin resistance, diabetes, heart attacks, atrial fibrillation, stroke, and death.20
+
+Mental health disorders such as anxiety and depression may increase the chance of adopting behaviors such as smoking, inactive lifestyle, or failure to take prescribed medications.4 This is because people experiencing a mental health disorder may have fewer healthy coping strategies for stressful situations, making it difficult for them to make healthy lifestyle choices to reduce their risk for heart disease.
+
+
+Heart disease and mental health. Possible physiological pathways include pain, fear, increased cardiac reactivity, reduced blood flow to the heart, and increased cortisol. Possible behavioral pathways include medication non-adherence, smoking, and physical inactivity.
+
+ho is at risk
+Specific populations, such as the following, show higher rates of heart disease as a result of pre-existing mental health disorders:
+
+Veterans. Studies found that veterans are at a higher risk for heart disease, mainly due to PTSD as a result of combat.2122232425
+
+Women. Studies exclusively focused on women found that PTSD and depression may have damaging effects on physical health, particularly with increased risk for coronary heart disease (CHD)–related morbidity and mortality.2627
+
+Couples with someone who has PTSD. Comparative studies found that couples where one or both partners had PTSD experienced more severe conflict, greater anger, and increased cardiovascular reactivity to conflict discussions than couples where neither partner had PTSD. Anger and physiological stress responses to couple discord might contribute to CHD and heart disease risk within these relationships.2829
+
+Racial and ethnic minorities. Lastly, studies focused on racial or ethnic minority groups found that depression, stress, and anxiety due to disparities in social determinants of health,30 adverse childhood experiences,31 and racism/discrimination323334 could place certain subpopulations at a higher risk for hypertension,31323435 cardiovascular reactivity,34 heart disease,3033 and poor heart health outcomes.36
+
+Reducing risk
+Addressing mental health disorders early by providing access to appropriate services and support to increase healthy behaviors (e.g., increased physical activity, improved diet quality, and reduced smoking) can reduce someone's risk of experiencing a heart disease event.1214161827373839
+
+Below are some actions that health care systems, health care professionals, individuals, and researchers can take to promote heart disease prevention and support mental health.
+
+Actions for health care systems
+Set up multidisciplinary teams that include both mental health and heart disease professionals.40414243
+Employ clinical decision support or electronic health record systems to coordinate care among the multidisciplinary teams.4142
+Actions for health care professionals
+Learn more about the link between mental health and heart disease18 with the following resources:
+National Institute of Mental Health
+American Psychological Association, "Mind/body health: Heart disease" 
+Talk to your patients about the relationship between mental health and heart disease.127384445
+Incorporate mental health screening and treatment into care surrounding a major heart disease event and chronic disease.25716202431394446
+Involve individuals and their family members in communication and decision making regarding treatment following a heart disease event.14
+For patients with severe mental health disorders and pre-existing heart disease or its risk factors:20
+Actions for individuals
+Recognize the signs and symptoms of mental health disorders and heart disease.
+Talk with your health care professionals about potential heart conditions in relation to your mental health disorder and treatment options.47
+Know that your family history and genetic factors likely play some role in your risk for heart disease.
+Know which conditions increase the risk of heart disease.
+Maintain a healthy lifestyle.
+Actions for researchers
+Address the role of social determinants of health and health disparities in improving the intersection between mental health and heart health outcomes.4849
+Understand the link and impact of mental health on the prevention and treatment of heart disease and its risk factors.43
+Describe the biological pathway between mental health disorders and heart disease to understand the intermediate and long-term outcomes (e.g., chronic inflammation, cardiac reactivity, heart rate variability, and coronary artery calcification).2843465051525354
+Analyze the impact of emotional well-being (i.e., a state in which people understand and manage their emotions through achievable goals, positive relationships, and responsible decision making) on mental health and physical health.5556
+Expand traditional heart disease risk assessments, such as the Atherosclerotic Cardiovascular Disease Risk Estimator or Framingham 10-Year Risk of General Cardiovascular Disease 57to include mental health disorders.
+Develop valid and reliable screening instruments to help identify vulnerable populations
