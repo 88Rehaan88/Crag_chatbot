@@ -31,4 +31,19 @@ CRAG (Corrective Retrieval-Augmented Generation) is a domain-specific AI chatbot
 
 - Web Search: Tavily API
 
-Frontend: Streamlit
+- Frontend: Streamlit
+
+## ✅ Highlights:
+- Tiny but Mighty: Optimized with TinyLlama for minimal resource use.
+
+- Fail-Safe: Works even when local docs are irrelevant.
+
+## 🔮 Potential Improvements:
+- Model Upgrade: Replace TinyLlama with a stronger model like Mistral-7B or Zephyr for more nuanced medical generation.
+  
+- Document Uploader: Let users upload their own PDFs or clinical notes for personalized RAG responses.
+
+- Answer Evaluation: Integrate QA evaluation metrics such as BLEU, ROUGE, or semantic similarity scoring (e.g., BERTScore) to automatically assess response quality.
+
+# 🧾 Conclusion:
+The CRAG Chatbot is a fully functional, lightweight, domain-specific assistant built with real-world architecture. It combines efficient retrieval with a fallback mechanism for general questions, demonstrating how small models can be production-ready when backed by good design. This project can also be scaled into a larger multi-agent systems. 
