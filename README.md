@@ -6,4 +6,15 @@ CRAG (Corrective Retrieval-Augmented Generation) is a domain-specific AI chatbot
 
 
 ## 🚀 Live Demo:  
-🔗 *[Try on Hugging Face Spaces](https://huggingface.co/spaces/88rehaan88/crag-chatbot)*  
+🔗*[Try on Hugging Face Spaces](https://huggingface.co/spaces/88rehaan88/crag-chatbot)*  
+
+## 💡 Features:
+• 🔎 Domain-Specific Retrieval: Uses heart-health-related documents for accurate and trusted responses.
+
+• 📚 TinyLlama Generator: Generates clear, bullet-point medical responses with TinyLlama 1.1B.
+
+• 🧠 Relevance Filtering: Grades document relevance using FLAN-T5 before generating answers.
+
+• 🌐 Web Search Fallback: Falls back on the Tavily web search API when local docs are not relevant.
+
+• 🧑‍⚕️ Medical UX: Streamlit-based interface styled for a clean, informative user experience.
