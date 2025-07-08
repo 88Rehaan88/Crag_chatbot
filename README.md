@@ -17,7 +17,7 @@ CRAG (Corrective Retrieval-Augmented Generation) is a domain-specific AI chatbot
 
 ---
 
-- <img src="https://github.com/user-attachments/assets/f0f42371-a491-4814-9669-9474ee13fbac" width="800">
+<img src="https://github.com/user-attachments/assets/f0f42371-a491-4814-9669-9474ee13fbac" width="800">
 
 ---
 
