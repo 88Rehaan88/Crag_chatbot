@@ -6,7 +6,7 @@ CRAG (Corrective Retrieval-Augmented Generation) is a domain-specific AI chatbot
 
 
 ## 🚀 Live Demo:  
-🔗*[Try on Hugging Face Spaces](https://huggingface.co/spaces/88rehaan88/crag-chatbot)*  
+🔗 *[Try on Hugging Face Spaces](https://huggingface.co/spaces/88rehaan88/crag-chatbot)*  
 
 ## 💡 Features:
 🔎 Domain-Specific Retrieval: Uses heart-health-related documents for accurate and trusted responses.
