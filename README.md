@@ -18,3 +18,17 @@ CRAG (Corrective Retrieval-Augmented Generation) is a domain-specific AI chatbot
 🌐 Web Search Fallback: Falls back on the Tavily web search API when local docs are not relevant.
 
 🧑‍⚕️ Medical UX: Streamlit-based interface styled for a clean, informative user experience.
+
+
+## 🛠️ Tech Stack:
+- RAG Framework: LangChain + ChromaDB
+
+- Embedding Model: BAAI/bge-small-en
+
+- Relevance Grader: google/flan-t5-base
+
+- LLM Generator: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+
+- Web Search: Tavily API
+
+Frontend: Streamlit
